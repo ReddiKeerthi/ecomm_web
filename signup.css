@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.background{
+    width: 100%;
+    height: 100vh; /*image height full screen antha raadanki*/
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(s_up\ img.jpg);
+    background-size: cover; /*image full screen lo repeat avvakunda undadanki use chestam*/
+    background-position: center; /*cventre ki image vastadi8*/
+   /* filter: blur(2px); */
+}
+body{
+    height: 100vh;
+    background: black;
+}
+.Container{
+position: absolute; /*trick contnt webpage centre lo radaniki*/
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+.form{
+position: relative;
+width: 350px;
+height: 350px;
+background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1)); /*login form taluka border
+                                                                                     glass type kosam line(31-31)*/                                                                      
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(100px);
+border: 1px solid rgba(255,255,255,0.1);
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* 3d lo knchm front ki vachinattu untundhi*/
+border-radius: 7px;
+
+}
+
+.form-header{
+    border-radius: 7px 7px 0 0;
+    background-color:  rgba(255,255,255,0.1);
+    padding: 10px;
+    text-align: center;
+    
+}
+.form-body{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(26 21 113);;
+    font-size: 16px;
+    font-weight: bold;
+}
+.field{
+    font-size: 16px;
+    font-weight: 400px;
+    width: 300px;
+    padding: 5px 5px;
+    outline: none;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+button{
+    padding: 7px 16px;
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+.forgot{
+    float: right;
+}
+.options{
+    padding: 0 80px;
+    margin: 15px 0 25px;
+    font-weight:540
+   
+}
+.form-footer{
+    text-align: center;
+    font-weight:550 ;
+}
+

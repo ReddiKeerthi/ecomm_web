@@ -1,0 +1,46 @@
+/*  as the map is in left position we need to change size and position and add space*/
+.location h1{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.location{
+    width: 100%;
+    margin: auto;
+    padding: 80px 0;
+    background: linear-gradient(135deg,rgba(113, 6, 6, 0.1),rgba(118, 42, 42, 0.1));
+    background-size: cover;
+}
+
+.location iframe{
+    width: 80%;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.contact-us{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg,rgba(119, 39, 39, 0.1),rgba(112, 47, 47, 0.1));
+    background-size: cover;
+   
+}
+
+.contact-us div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 77px;
+}
+
+.contact-us div .fa{
+    font-size: 28px;
+    color: black;
+    margin: 10px;
+    margin-right: 30px;
+    padding-left: 77px;
+}
